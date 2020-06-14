@@ -98,7 +98,9 @@ Clicar com o botão direito no explorador de arquivos no VS Code e escolher a op
 
 ```json
 {
-  "singleQuote": true
+	"singleQuote": true,
+	"useTabs": true,
+	"endOfLine": "auto"
 }
 ```
 
@@ -111,7 +113,7 @@ Algumas configurações interessantes são:
 
 ```json
 {
-  "editor.formatOnSave": true
+	"editor.formatOnSave": true
 }
 ```
 
@@ -123,15 +125,15 @@ Clicar com o botão direito no explorador de arquivos no VS Code e escolher a op
 
 ```json
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": "error",
-    "no-unused-vars": "warn",
-    "no-console": "off",
-    "func-names": "off",
-    "object-shorthand": "off"
-  }
+	"extends": ["airbnb", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": "error",
+		"no-unused-vars": "warn",
+		"no-console": "off",
+		"func-names": "off",
+		"object-shorthand": "off"
+	}
 }
 ```
 

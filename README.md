@@ -192,6 +192,6 @@ insert_final_newline = true
 
 ## 5- Configuração do Ambiente (Exemplos)
 
-[React JS](REACT.md)
+[React](https://github.com/DiegoGeoDev/styleGuideReact)
 
-[Node JS](NODE.md)
+[Node](https://github.com/DiegoGeoDev/styleGuideNode)
